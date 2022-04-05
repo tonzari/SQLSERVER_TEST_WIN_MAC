@@ -19,5 +19,6 @@ namespace GC_MVC_SQL_WIN_MAC.Models
         public string ProductName { get; set; }
         public string Color { get; set; }
         public double Price { get; set; }
+        public bool IsOnSale { get; set; }
     }
 }

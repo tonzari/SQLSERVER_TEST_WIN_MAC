@@ -14,7 +14,7 @@ namespace GC_MVC_SQL_WIN_MAC.Data
        
         public static void Init(PantsContext context)
         {
-            context.Database.EnsureCreated();
+            //context.Database.EnsureCreated();
 
             if (context.Pants.Any())
             {

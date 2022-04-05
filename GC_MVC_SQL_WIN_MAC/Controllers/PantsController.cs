@@ -54,7 +54,7 @@ namespace GC_MVC_SQL_WIN_MAC.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Length,Waist,Size,Brand,ProductName,Color,Price")] Pants pants)
+        public async Task<IActionResult> Create([Bind("ID,Length,Waist,Size,Brand,ProductName,Color,Price,IsOnSale")] Pants pants)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace GC_MVC_SQL_WIN_MAC.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Length,Waist,Size,Brand,ProductName,Color,Price")] Pants pants)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Length,Waist,Size,Brand,ProductName,Color,Price,IsOnSale")] Pants pants)
         {
             if (id != pants.ID)
             {
