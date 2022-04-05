@@ -1,4 +1,5 @@
 ﻿using GC_MVC_SQL_WIN_MAC.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,9 @@ namespace GC_MVC_SQL_WIN_MAC.Data
        
         public static void Init(PantsContext context)
         {
-            //context.Database.EnsureCreated();
+            //context.Database.EnsureCreated(); // This API is not compatible with Migrations
+
+            context.Database.Migrate(); // This was necessary to create the database on Mac/Docker. Oddly, it wasn't necessary on Windows. Something to research!
 
             if (context.Pants.Any())
             {
