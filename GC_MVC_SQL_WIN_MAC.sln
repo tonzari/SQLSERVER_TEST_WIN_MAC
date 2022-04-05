@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC_MVC_SQL_WIN_MAC", "GC_MVC_SQL_WIN_MAC\GC_MVC_SQL_WIN_MAC.csproj", "{6555DF9F-2E07-4E9F-8C03-FF3A7DAD61B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6555DF9F-2E07-4E9F-8C03-FF3A7DAD61B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6555DF9F-2E07-4E9F-8C03-FF3A7DAD61B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6555DF9F-2E07-4E9F-8C03-FF3A7DAD61B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6555DF9F-2E07-4E9F-8C03-FF3A7DAD61B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7904A04-0F7B-494A-AC52-37D66AF9DDD9}
+	EndGlobalSection
+EndGlobal
